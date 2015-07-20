@@ -46,7 +46,7 @@ static char kNavigationBarKey;
       [bar setShadowImage:[self.navigationBar.shadowImage copy]];
       [topVC.view addSubview:bar];
       [[self.navigationBar valueForKey:@"_backgroundView"] setAlpha:0];
-      objc_setAssociatedObject(bar, &kNavigationBarKey, topVC,
+      objc_setAssociatedObject(topVC, &kNavigationBarKey, bar,
                                OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
   }
