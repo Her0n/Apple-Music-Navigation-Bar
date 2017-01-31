@@ -1,4 +1,4 @@
-# [Apple-Music-Navigation-Bar](https://blog.austinchou.com/apple-music-like-navigation-bar/)
+# Apple Music Navigation Bar
 
 ### Deprecated Project
 
